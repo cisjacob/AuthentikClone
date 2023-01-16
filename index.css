@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.font2 {
+    font-family: 'PT Serif', serif;
+}
+
+.fw500 {
+    font-weight: 500;
+    color: black;
+}
+
+/* button */
+
+.btnFont {
+    font-size: 11px;
+}
+
+.titlePage {
+    background-image: url('/assets/mountain.png');
+    background-size: 100% 100%;
+    padding: 15% 0 7% 0;
+}
+
+.welcomeMsg1 {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.welcomeMsg2 {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.welcomeMsg3 {
+    font-family: 'PT Serif', serif;
+}
+
+/* FEATURE SECTION */
+
+.featurePage {
+    padding: 7% 0 7% 0;
+}
+
+.featureMsg {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.featureMsg1 {
+    font-family: 'PT Serif', serif;
+}
+
+.icons {
+    height: 50px;
+}
+
+.featureTitle {
+    font-weight: bold;
+}
+
+/* GET STARTED SECTION */
+
+.getStartedPage {
+    background-color: #f5f5f5;
+    padding: 7% 0 7% 0;
+}
+
+.getStartedMsg {
+    font-family: 'PT Serif', serif;
+}
+
+input {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    padding: 7% 0 7% 0;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 740px) {
+    body {
+        text-align: center;
+    }
+  }
+
+
+
